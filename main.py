@@ -1,6 +1,5 @@
 import seaborn as sns
 import pickle
-import numpy as np
 
 df = sns.load_dataset('iris')
 x = df.iloc[:,:-1]
